@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Audio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" >
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+   <div class="music">
+       <div class="music-thumb">
+           <img src="https://scr.vn/wp-content/uploads/2020/08/H%C3%ACnh-v%E1%BA%BD-%C4%91%C6%A1n-gi%E1%BA%A3n-v%E1%BB%81-c%E1%BA%A3nh-m%E1%BA%B7t-tr%E1%BB%9Di-m%E1%BB%8Dc-576x1024.jpg" alt="">
+       </div>
+       <h3 class="music-name"> Phai Chia Tay Thoi </h3>
+       <h5 class="music-license"> © 2022 - Bản quyền thuộc về hquan </h5>
+       <input type="range" name="range" id="range" class="range">
+       <audio src="./music/pctt.mp3" id="song"></audio>
+       <div class="timer">
+           <div class="duration">2:10</div>
+           <div class="remaining">-3:10</div>
+       </div>
+       <div class="controls">
+            <ion-icon name="finger-print-outline" class="btn-finger"></ion-icon>
+            <ion-icon name="play-back" class="play-back"></ion-icon>
+            <div class="play">
+                <div class="player-inner">
+                    <ion-icon name="play" clas="play-icon"></ion-icon>
+                </div>
+            </div>
+                <ion-icon name="play-forward" class="play-forward"></ion-icon>
+                <ion-icon name="repeat" class="play-repeat"></ion-icon>
+       </div>
+   </div>
+   <script src="./main.js"></script>
+</body>
+</html>
